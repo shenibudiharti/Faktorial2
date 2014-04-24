@@ -1,0 +1,31 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package fibonacci;
+import javax.swing.*;
+/**
+ *
+ * @author Asisten
+ */
+public class faktorial {
+    
+public static void main(String [] args){
+    int angka=Integer.parseInt(JOptionPane.showInputDialog("Input angka : "));
+
+    int hasil =1;
+        for (int i=1; i<=angka; i++){
+    hasil = hasil * i;
+    if (i == angka){
+        System.out.print(i +"="+hasil);
+}
+    else{
+        System.out.print(i +"x");
+        }
+    }
+    }
+}
+
+
